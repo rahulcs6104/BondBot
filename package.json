@@ -1,0 +1,28 @@
+{
+  "name": "bondbot-backend",
+  "version": "1.0.0",
+  "description": "BondBot Backend Server - MQTT to MongoDB Bridge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "mqtt",
+    "mongodb",
+    "iot",
+    "bondbot"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.3.0",
+    "mqtt": "^5.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
